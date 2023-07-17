@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-aggiungere QUI max-widht 1200px e width 90%
+/* aggiungere QUI max-widht 1200px e width 90% */
 main {
   margin: auto;
 }
@@ -55,15 +55,14 @@ header {
 /* MAIN */
 
 main .sec {
-  height: 400px;
-  display: flex;
+  /* display: flex; */
+  padding: 30px 0;
 }
 
 main .container {
   width: 60%;
   margin: auto;
   height: 300px;
-  align-items: center;
   display: flex;
   background-color: lightblue;
 }
@@ -102,6 +101,7 @@ main .box-white .space-left {
 
 /* terza sezione */
 
+/* background che serve come riferimento struttura */
 main .gray.sec {
   background-color: lightgray;
 }
@@ -121,3 +121,10 @@ main .box-gray .space-left {
 /* la quarta sezione è identica alla seconda */
 
 /* quinta sezione (piu grande) */
+main .box-green {
+  width: 60%;
+  height: 500px;
+  background-color: green;
+  margin: auto;
+  }
+
