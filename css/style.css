@@ -6,9 +6,8 @@
   box-sizing: border-box;
 }
 
+aggiungere QUI max-widht 1200px e width 90%
 main {
-  width: 90%;
-  max-width: 1200px;
   margin: auto;
 }
 
@@ -52,3 +51,20 @@ header {
 .top-logo, .top-nav {
   border-right: 1px solid black;
 }
+
+/* MAIN */
+
+.blue-sec {
+  background-color: blue;
+  height: 400px;
+  display: flex;
+}
+
+.first-info-block {
+  background-color: #EF82EE;
+  width: 50%;
+  margin: auto;
+  height: 300px;
+  align-items: center;
+}
+
