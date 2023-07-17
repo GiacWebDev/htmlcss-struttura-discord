@@ -1,0 +1,54 @@
+/* General Settings  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* Header */
+
+header {
+  background-color: #AED8E6;
+  padding: 10px 0px;
+}
+
+/* ha un clearfix perche la sua altezza dipenderà dal contenuto al suo interno */
+.main-bar {
+  background-color: #DAA520;
+  height: 50px;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+}
+
+.top-logo {
+  width: 20%;
+  height: 50px;
+}
+
+.top-nav {
+  width: 60%;
+}
+
+.top-cta {
+  height: 50px;
+  width: 20%;
+}
+
+.top-logo, .top-nav {
+  border-right: 1px solid black;
+}
