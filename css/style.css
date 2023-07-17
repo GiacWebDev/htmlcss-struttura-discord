@@ -54,13 +54,31 @@ header {
 
 /* MAIN */
 
-.blue-sec {
-  background-color: blue;
+main .sec {
   height: 400px;
   display: flex;
 }
 
-.first-info-block {
+main .container {
+  width: 60%;
+  margin: auto;
+  height: 300px;
+  align-items: center;
+  display: flex;
+  background-color: lightblue;
+}
+
+.space-left, .space-right {
+  border: 1px solid black;
+}
+
+/* prima sezione  */
+
+main .sec.blue {
+  background-color: blue;
+}
+
+main .first-info-box {
   background-color: #EF82EE;
   width: 50%;
   margin: auto;
@@ -68,3 +86,38 @@ header {
   align-items: center;
 }
 
+/* seconda sezione  */
+
+main .box-white .space-right {
+  background-color: #FFC1CC;
+  width: 40%;
+  height: 300px;
+}
+
+main .box-white .space-left {
+  background-color: #1E90FF;
+  width: 60%;
+  height: 300px;
+}
+
+/* terza sezione */
+
+main .gray.sec {
+  background-color: lightgray;
+}
+
+main .box-gray .space-right {
+  background-color: #1E90FF;
+  width: 60%;
+  height: 300px;
+}
+
+main .box-gray .space-left {
+  background-color: #FFC1CC;
+  width: 40%;
+  height: 300px;
+}
+
+/* la quarta sezione è identica alla seconda */
+
+/* quinta sezione (piu grande) */
