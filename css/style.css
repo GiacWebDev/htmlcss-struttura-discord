@@ -128,3 +128,31 @@ main .box-green {
   margin: auto;
   }
 
+/* Footer */
+footer {
+  background-color: #23272A;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+  
+footer .column {
+  width: 60%;
+  margin: auto;
+  height: 300px;
+  display: flex;
+  background-color: lightblue;
+}
+
+footer .col {
+  border: 1px solid white;
+  background-color: #20B2AB;
+  flex-grow: calc(100/5)
+}
+
+footer .col-left {
+  background-color: #F08080;
+  width: 30%;
+}
+
+/* copyright section  */
+
